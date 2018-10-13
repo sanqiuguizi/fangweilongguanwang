@@ -1,0 +1,260 @@
+.scolls{
+	width: 1600px;
+	height: 480px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 16px;
+}
+.scolls .imgList{
+	width: 1600px;
+	height: 480px;
+	overflow: hidden;
+}
+.scolls .imgList ul{
+	list-style-type: none;
+	position: relative;
+}
+.scolls .imgList ul li{
+	position: absolute;
+	display: none;
+}
+.scolls .imgList ul li.nav{
+	width: 15px;
+	height: 15px;
+	float: left;
+	background-color: gray;
+	position: relative;
+	margin-right: 10px;
+	display: inline-block;
+	left: 1430px;
+	top: 455px;
+	cursor: pointer;
+	box-sizing: border-box;
+	border: 1px solid white;
+	z-index: 1;
+}
+.scolls .imgList ul li a img{
+	width: 1600px;
+	height: 480px;
+}
+.scolls .imgList ul li.active{
+	border: none;
+	background-color: red;
+}
+.wl-main{
+	margin: 0 auto;
+	width: 1600px;
+	height: 320px;
+	background: url(../img/main_bg.png) no-repeat center;
+}
+.wl-main .wall{
+	width: 1100px;
+	margin: 0 auto;
+/*	background-color: gray;*/
+}
+.wl-main .wall .wl-leftMain{
+	width: 330px;
+	height: 230px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	float: left;
+/*	background-color: hotpink;*/
+}
+.wl-main .wall .wl-leftMain .wl-leftMainTitle{
+	height: 32px;
+    line-height: 32px;
+    color: #6eba0c;
+    border-bottom: 3px solid #6eba0c;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainTitle p{
+	display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainTitle span{
+	font-size: 16px;
+    color: #9f9f9f;
+    border-left: 1px solid #9f9f9f;
+    padding-left: 5px;
+    margin-left: 3px;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainTitle a{
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+    float: right;
+    color: #6eba0c;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainText{
+	margin: 0 auto;
+	height: 170px;
+	line-height: 170px;
+    width: 333px;
+    margin-top: 25px;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainText .wl-leftMainTextHead{
+	height: 116px;
+    border-bottom: 1px dotted #666;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainText .wl-leftMainTextHead .wl-textLeft{
+	float: left;
+    height: 102px;
+    width: 147px;
+    background: url(../img/wenzhang_bg.png) no-repeat;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainText .wl-leftMainTextHead .wl-textLeft img{
+	width: 138px;
+    height: 92px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainText .wl-leftMainTextHead .wl-textRight{
+	float: right;
+    width: 170px;
+    height: 94.2px;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainText .wl-leftMainTextHead .wl-textRight a img{
+	width: 170px;
+    height: 92px;
+    margin-top: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainText ul{
+	list-style-type: none;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainText ul li{
+	line-height: 24px;
+    border-bottom: 1px dotted #666;
+}
+.wl-main .wall .wl-leftMain .wl-leftMainText ul li a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #333;
+}
+.wl-main .wall .wl-middleMain{
+	width: 330px;
+	height: 230px;
+	margin-left: 50px;
+	margin-top: 30px;
+    margin-bottom: 60px;
+	float: left;
+/*	background-color: aquamarine;*/
+}
+.wl-main .wall .wl-middleMain .wl-middleMainTitle{
+	height: 32px;
+    line-height: 32px;
+    color: #6eba0c;
+    border-bottom: 3px solid #6eba0c;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(110, 186, 12);
+}
+.wl-main .wall .wl-middleMain .wl-middleMainTitle p{
+	display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+	line-height: 32px;
+    color: #6eba0c;
+}
+.wl-main .wall .wl-middleMain .wl-middleMainTitle span{
+	font-size: 16px;
+    color: #9f9f9f;
+    border-left: 1px solid #9f9f9f;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(159, 159, 159);
+    padding-left: 5px;
+    margin-left: 3px;
+}
+.wl-main .wall .wl-middleMain .wl-middleMainTitle a{
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+    float: right;
+    color: #6eba0c;
+}
+.wl-main .wall .wl-middleMain .wl-middleMainText{
+	width: 330px;
+	height: 208px;
+/*	background-color: beige;*/
+}
+.wl-main .wall .wl-middleMain .wl-middleMainText img.pointer{
+	position: relative;
+	bottom: 20px;
+	cursor: pointer;
+}
+.wl-main .wall .wl-middleMain .wl-middleMainText .wl-MiddleScroll{
+	width: 294px;
+	height: 54px;
+	/*background-color: deepskyblue;*/
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;	
+	position: relative;
+	top: 85px;
+}
+.wl-main .wall .wl-middleMain .wl-middleMainText .wl-MiddleScroll ul{
+	list-style-type: none;
+}
+.wl-main .wall .wl-middleMain .wl-middleMainText .wl-MiddleScroll ul li{
+	
+	float: left;
+}
+.wl-main .wall .wl-middleMain .wl-middleMainText .wl-MiddleScroll ul li a img{
+	width: 95px;
+	height: 54px;
+	cursor: pointer;
+	padding-right: 3px;
+}
+.wl-main .wall .wl-rightMain{
+	margin-top: 30px;
+    margin-bottom: 60px;
+    width: 333px;
+    height: 230px;
+    /*background-color: orange;*/
+    float: right;
+}
+.wl-main .wall .wl-rightMain .wl-rightMainTitle{
+	height: 32px;
+    line-height: 32px;
+    color: #6eba0c;
+    border-bottom: 3px solid #6eba0c;
+}
+.wl-main .wall .wl-rightMain .wl-rightMainTitle p{
+	display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.wl-main .wall .wl-rightMain .wl-rightMainTitle span{
+	font-size: 16px;
+    color: #9f9f9f;
+    border-left: 1px solid #9f9f9f;
+    padding-left: 5px;
+    margin-left: 3px;
+}
+.wl-main .wall .wl-rightMain .wl-rightMainVideo{
+	margin-top: 30px;
+	width: 333px;
+	height: 170px;
+	background-color: #b9b9b9;
+}
+.wl-main .wall .wl-rightMain .wl-rightMainVideo .video{
+	width: 270px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+ /*   background-color: cyan;*/
+}
+.wl-main .wall .wl-rightMain .wl-rightMainVideo .video_txt{
+	width: 120px;
+	height: 35.2px;
+    margin: 20px auto 0 auto;
+    padding-left: 50px;
+    color: #fff;
+    background: url(../img/video_txt.png) no-repeat;
+}
+.wl-main .wall .wl-rightMain .wl-rightMainVideo .video_txt span{
+	font-size: 12px;
+}

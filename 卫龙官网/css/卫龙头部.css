@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 1600px;
+	height: 108px;
+	margin: 17px auto;
+	background: url(../img/head_bg.png) repeat-x top;
+	position: relative;
+	z-index: 1;
+	/*background-color: aqua;*/
+}
+header div.wl-logo{
+	width: 320px;
+	height: 102px;
+	position: absolute;
+/*	background-color: aquamarine;*/
+	margin-left: 310px;
+}
+header div.wl-logo a img{
+	width: 131px;
+	height: 77px;
+	margin-top: 25px;
+	float: right;
+}
+header div.wl-nav{
+	width: 667px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+     bottom: 1px;
+    left: 682px;
+    /*position: relative;
+    bottom: 38px;
+    left: 543px;*/
+    /*display: none;*/
+/*    background-color: burlywood;*/
+}
+header div.wl-nav ul{
+	height: 35px;
+    position: absolute;
+}
+header div.wl-nav ul li{
+	padding-right: 2px;
+	width: 107px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+	display: inline-block;
+	background: url(../img/nav.png) no-repeat;
+	float: left;
+}
+li#menu1 a,li#menu2 a.wl-navTitle,li#menu3 a.wl-navTitle,li#menu4 a.wl-navTitle,li#menu5 a.wl-navTitle,li#menu6 a.wl-navTitle{
+	width: 107px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    color: #333333;
+    text-decoration: none;
+}
+li#menu2 a.actives,li#menu3 a.actives,li#menu4 a.actives,li#menu5 a.actives,li#menu6 a.actives{
+	width: 107px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    text-decoration: none;
+}
+div.wl-nav1 p a,div.wl-nav2 p a,div.wl-nav3 p a,div.wl-nav4 p a,div.wl-nav5 p a{
+	color: #3f4144;
+	width: 100%;
+    display: block;
+    line-height: 28px;
+    height: 28px;
+    margin-top: 1px;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none
+}
+div.wl-nav1,div.wl-nav2,div.wl-nav3,div.wl-nav4,div.wl-nav5{
+	background-color: white;
+}
+#menu2,#menu3,#menu4,#menu5,#menu6:hover{
+		cursor: pointer;
+}
+#menu2:hover{
+	background: url(../img/navbg_1.png) no-repeat;
+}
+#menu3:hover{
+	background: url(../img/navbg_2.png) no-repeat;
+}
+#menu4:hover{
+	background: url(../img/navbg_3.png) no-repeat;
+}
+#menu5:hover{
+	background: url(../img/navbg_4.png) no-repeat;
+}
+#menu6:hover{
+	background: url(../img/navbg_5.png) no-repeat;
+}
+.wl-nav p.pPart{
+	background: white;
+}
+.wl-nav p.show{
+	background: url(../img/navbg2.png) no-repeat;
+}
+.wl-nav a.aPart{
+	color: #3f4144;
+}
+.wl-nav a.active{
+	font-weight: bold;
+	color: #02a1e7;
+}
+.wl-nav a.active2{
+	font-weight: bold;
+	color: #e81237;
+}
+.wl-nav a.active3{
+	font-weight: bold;
+	color: #86cf4f;
+}
+.wl-nav a.active4{
+	font-weight: bold;
+	color: #17ab7c;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+    clear: both;;
+			}

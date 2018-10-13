@@ -1,0 +1,170 @@
+.wl-foot{
+	margin: 0 auto;
+	width: 1600px;
+	height: 118px;
+	/*background-color: aquamarine;*/
+	margin-top: 40px;
+    border-top: 2px solid #999999;
+}
+.wl-foot .wl-footMain{
+	width: 1100px;
+	height: 78px;
+    margin: 0px auto;
+    /*background-color: darkgray;*/
+    position: relative;
+    bottom: -25px;
+}
+.wl-foot .wl-footMain p{
+	font-size: 14px;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+}
+.wl-foot .wl-footMain p span{
+	font-size: 14px;
+    color: #666;
+    margin: 0 5px;
+}
+.wl-foot .wl-footMain .wl-codeMain{
+	width: 120px;
+	height: 120px;
+	float: left;
+	position: absolute;
+	top: -120px;
+	left: 0px;
+	z-index: 1;
+	/*display: none;*/
+/*	overflow: hidden;*/
+}
+.wl-foot .wl-footMain .wl-codeMain img.code{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	bottom: -120px;
+}
+.wl-foot .wl-footMain p a{
+	color: #666;
+	text-decoration: none;
+}
+.wl-foot .wl-footMain p a img{
+	margin-left: 8px;
+}
+.wl-foot .wl-footMain .wl-footText{
+	font-size: 14px;
+    background: #6eba0c;
+    height: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.wl-foot .wl-footMain .wl-footText a{
+	text-decoration: none;
+}
+#alabel li a:hover{
+	color: red;
+}
+#alabel2 a:hover{
+	color: red;
+}
+
+footer{
+	/*background-color: yellowgreen;*/
+	padding-top: 20px;
+	border-top: 2px solid #999999;
+	padding-bottom: 20px;
+	margin-top: 40px;
+}
+.footerdiv{
+	/*background-color: cadetblue;*/
+	width: 1100px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.fbixgbox{
+	height: 44px;
+	line-height: 44px;
+	width: 1000px;
+	margin: auto;
+	font-size: 14px;
+	color: #666666;
+	font-family: "微软雅黑";
+}
+.fbixgbox a{
+	text-decoration: none;
+	color: #666666;
+}
+.fbixgbox span{
+	margin: 0 5px;
+}
+.fbixgbox .leftbox span{
+	margin: 0 2px;
+}
+
+.fbixgbox .leftbox{
+	/*background-color: grey;*/
+	width: 400px;
+	float: left;
+	text-align: right;
+}
+
+
+.fbixgbox .rightbox{
+	/*background-color: skyblue;*/
+	width: 550px;
+	float: left;
+	margin-left: 50px;
+}
+.rightbox .threelogo{
+	list-style-type: none;
+}
+.rightbox .threelogo li{
+	float: left;
+	margin: 0 5px;
+	position: relative;
+}
+.rightbox .threelogo li a img{
+	/*图片垂直居中zzzzzzzzzzzzzzzzzzzzzzzz*/
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.erweimadiv{
+	width: 120px;
+	height: 120px;
+	float: left;
+	position: absolute;
+	top: -120px;
+	/*display: none;*/
+	overflow: hidden;
+}
+.erweima{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	bottom: -120px;
+}
+
+.footerdiv p{
+	height: 25px;
+	line-height: 25px;
+	background-color: #6eba0c;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 14px;
+}
+.footerdiv p a{
+	text-decoration: none;
+	color: white;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fbixgbox a:hover{
+	color: red;
+}

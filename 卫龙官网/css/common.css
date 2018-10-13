@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.clearfix:after{
+				content: "";
+			    display: block;
+			    clear: both;
+			}
+
+section{
+	width: 1108px;
+	
+
+
+	margin: 10px auto;
+}
+section .left{
+	width: 218px;
+	height: 100px;
+	left: 0;
+	float: left;
+	
+	
+}
+.IMG{
+	width: 1920PX;
+	margin: 0 auto;
+}
+.left .top-red{
+	background-color: red;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-family: "宋体";
+	font-size: 20px;
+}
+.left .ul ul{
+	list-style-type: none;
+	margin-top: 10px;
+}
+.left .ul ul li {
+	height: 50px;
+	cursor: pointer;
+	
+}
+.left .ul ul li span a {
+	text-decoration: none;
+	color: gray;
+}
+.left .ul ul li .arrowup{
+				display: inline-block;
+				width: 0px;
+				height: 0px;
+				line-height: 0px;
+				border-top: 4px solid transparent;
+				border-right: 4px solid transparent;
+				border-bottom: 4px solid transparent;
+				border-left: 4px solid gainsboro;	
+			}
+			.arrowdowm{
+				display: inline-block;
+				width: 0px;
+				height: 0px;
+				line-height: 0px;
+				border-top:4px solid transparent;
+				border-right:4px solid transparent ;
+				border-bottom:4px solid transparent ;
+				border-left:4px solid transparent ;
+				
+				
+				position: relative;
+				top: -4px;
+			}
+section .right{
+
+	width: 812px;
+	margin-left: 296px;
+	right: 0;
+}
+section .right .addcls span{
+	float: right;
+	margin-left: 20px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: gray;
+
+	
+	border-bottom: 2px solid gainsboro;
+}
+section .right span a{
+	text-decoration: none;
+	color: gray;
+}
+
